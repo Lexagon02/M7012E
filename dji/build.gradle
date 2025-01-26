@@ -10,6 +10,28 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        implementation 'com.google.zxing:core:3.4.1'
+        implementation 'com.dji:dji-sdk:4.14'
+        implementation 'com.dji:dji-sdk-provided:4.14'
+        // DJI SDK dependencies
+
+        implementation 'com.dji:dji-sdk:4.14'
+
+        implementation 'com.dji:dji-sdk-provided:4.14'
+
+
+
+        // ZXing library for QR code scanning
+
+        implementation 'com.google.zxing:core:3.4.1'
+
+        implementation 'com.google.zxing:android-core:3.3.0'
+
+
+
+        // Android graphics library
+
+        implementation 'com.android.support:support-v4:28.0.0'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
